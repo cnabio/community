@@ -1,3 +1,5 @@
+<img align="right" src="images/logos/cnab-logo/icon.png" width="100px"/>
+
 # CNAB Community
 
 This is the best spot to share assets, and information with the CNAB community. Examples of content that we would love to have contributed are:
