@@ -27,6 +27,8 @@ The current executive directors of the CNAB Foundation are (in alphabetical orde
 
 Provisionally, new executive directors are nominated by existing executive directors by unanimous vote. In the event that executive directors cannot name new directors, the working groups may nominate and then vote on new executive directors, with a 2/3 supermajority required for successful nomination. No one company may hold 50% or more of the voting power of the executive directorship.
 
+The current term for an executive director is two years. Provisionally, the director may serve another term at will. (A future version of this governance document will provide a formal method.) An executive directory may step down from this position by formally announcing it to the other executive director(s), at which time the remaining executive directors may nominate and vote on a replacement director.
+
 ## The Working Group Lifecycle
 
 This process governs the motion of a specification from rough draft through full standardization. While it does not necessarily follow the typical software lifecycle, we have approximately adapted it for reference implementations as well. A document is termed a _deliverable_ as it passes through various phases from _pre-draft deliverable_ to _accepted deliverable_, at which point it becomes a final specification.
@@ -45,8 +47,8 @@ The specification will proceed through the following phases:
 
 - *Pre-Draft (PD):* Any working group participant or contributor may submit a proposed initial draft document as a candidate for this working group. The Working Group Chair may designate such a submission as a Pre-Draft Document.
 - *Draft (Draft):* A Pre-Draft may be approved by the working group, in which case it becomes an official draft under the auspices of the CNAB specification working group. The working group will continue to revise the draft until it is in a state the group sees as fit for standardization.
-- *Working Group Approval (GA):* When the working group believes a draft fit for standardization, the group formally approves the draft and submits it for final approval.
-- *Final Approval (AD):* The Executive Director (or a named proxy) may grant Final Approval to a draft with Working Group Approval. At this point, the work is now designated an Approved Deliverable and is no longer a draft.
+- *Working Group Approval (GA):* When the working group believes a draft is fit for standardization, the group formally approves the draft and submits it for final approval.
+- *Final Approval (AD):* The Executive Directors may grant Final Approval to a draft with Working Group Approval. This is by simple majority vote. At this point, the work is now designated an Approved Deliverable and is no longer a draft.
 - *Publication:* When Final Approval is granted, the Approved Deliverable is made publicly available under the terms of the Open Web Foundation 1.0 license.
 - *Submission to Other Standards Bodies:* With the approval of the Working Group, the Executive Director may submit an Approved Deliverable to another standards body in collaboration with the JDF.
 
