@@ -12,6 +12,20 @@ Currently, there are two working groups under the foundation:
 
 - The CNAB Specification Working Group: This group works on the [CNAB specifications](https://github.com/deislabs/cnab-spec).
 - The Duffle Working Group: This group works on [duffle](https://github.com/deislabs/duffle), which is the reference implementation of CNAB. The same group works on common libraries and other supporting reference implementations for CNAB.
+### Working Group Creation
+
+Working groups can be created by a supermajority of executive directors and are seeded with one or more [associates](#working-group-participants).
+
+### Working Group Participants
+
+Participants in working groups fall into two categories:
+
+* Associate: A participant that contributes work and has voting rights
+* Contributor: A participant that contributes work but *does not* have voting rights
+
+Voting rights are applicable to working group processes and, when required, the selection of a new executive director.
+
+Anyone can become a working group contributor but in order to become an associate, the person will need to be voted into the position by a supermajority of existing associates. There are no company restrictions on working groups.
 
 ## The Executive Directors
 
