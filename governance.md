@@ -45,7 +45,7 @@ Other specifications must follow the same nomenclature.
 
 The specification will proceed through the following phases:
 
-- *Pre-Draft (PD):* Any working group participant or contributor may submit a proposed initial draft document as a candidate for this working group. The Working Group Chair may designate such a submission as a Pre-Draft Document.
+- *Pre-Draft (PD):* Any working group associate or contributor may submit a proposed initial draft document as a candidate for this working group. The Working Group Chair may designate such a submission as a Pre-Draft Document.
 - *Draft (Draft):* A Pre-Draft may be approved by the working group, in which case it becomes an official draft under the auspices of the CNAB specification working group. The working group will continue to revise the draft until it is in a state the group sees as fit for standardization.
 - *Working Group Approval (GA):* When the working group believes a draft is fit for standardization, the group formally approves the draft and submits it for final approval.
 - *Final Approval (AD):* The Executive Directors may grant Final Approval to a draft with Working Group Approval. This is by simple majority vote. At this point, the work is now designated an Approved Deliverable and is no longer a draft.
