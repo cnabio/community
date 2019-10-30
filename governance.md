@@ -64,7 +64,7 @@ The specification will proceed through the following phases:
 - *Working Group Approval (GA):* When the working group believes a draft is fit for standardization, the group formally approves the draft and submits it for final approval.
 - *Final Approval (AD):* The Executive Directors may grant Final Approval to a draft with Working Group Approval. This is by simple majority vote. At this point, the work is now designated an Approved Deliverable and is no longer a draft.
 - *Publication:* When Final Approval is granted, the Approved Deliverable is made publicly available under the terms of the Open Web Foundation 1.0 license.
-- *Submission to Other Standards Bodies:* With the approval of the Working Group, the Executive Director may submit an Approved Deliverable to another standards body in collaboration with the JDF.
+- *Submission to Other Standards Bodies:* With the approval of the Working Group, an Executive Director may submit an Approved Deliverable to another standards body in collaboration with the JDF.
 
 Documents that have reached AD are considered complete. Errata may be captured in a separate section of the document, but the document itself is not changed except to correct typographical and formatting errors where necessary.
 
