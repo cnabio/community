@@ -25,7 +25,7 @@ The current executive directors of the CNAB Foundation are (in alphabetical orde
 - Matt Butcher (Microsoft)
 - Chris Crone (Docker)
 
-Provisionally, new executive directors are nominated by existing executive directors by unanimous vote. In the event that executive directors cannot name new directors, the working groups may nominate and then vote on new executive directors, with a 2/3 supermajority required for successful nomination. No one company may hold 50% or more of the voting power of the executive directorship.
+Provisionally, new executive directors are nominated by existing executive directors by unanimous vote. In the event that executive directors cannot name new directors, the working groups may nominate and then vote on new executive directors, with a 2/3 supermajority of working group associates required for successful nomination. No one company may hold more than 50% of the voting power of the executive directorship.
 
 The current term for an executive director is two years. Provisionally, the director may serve another term at will. (A future version of this governance document will provide a formal method.) An executive directory may step down from this position by formally announcing it to the other executive director(s), at which time the remaining executive directors may nominate and vote on a replacement director.
 
