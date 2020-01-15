@@ -1,0 +1,67 @@
+## **Jan. 08 Agenda - General Meeting**
+
+|  |  | 
+| -------- | -------- |
+| Recording  | https://youtu.be/bsDOqRCzhzM |
+| Attending  |  Ralph Squillace, Radu Matei, Matt Butcher, Chris Crone, Trishank Karthik Kuppusamy, Carolyn Van Slyck, Silvin Lubecki, Jacob LeGrone, Vaughn Dice |
+| Note Taker | Radu M |
+
+### Agenda
+
+- Add Silvin as maintainer on Spec repo (Matt Butcher)
+- _Stable_ working draft for CNAB Security and Distribution (when ready) vs. 1.0, considering upcoming changes with OCI Artifacts and Notary v2 (Radu M)
+- Move other repositories (e.g. `signy`, `cnab-to-oci`) under github.com/cnabio (Radu M)
+- Please review the latest PRs on the security and claim specifications (https://github.com/cnabio/cnab-spec/pulls) (Radu M)
+- Common repository for `cnab-to-oci` C bindings? (Rust and Python bindings in progress) (Radu M)
+- Claims spec process to completion (Matt Butcher)
+- Update on MS usage of CNAB and Porter (Matt Butcher)
+- Should we parse digest from the `image` field? https://github.com/cnabio/cnab-go/pull/166 (Jacob) -- see also https://github.com/cnabio/cnab-spec/issues/287
+- Anyone working on a distributed claim store? (Chris)
+
+### Notes
+
+- Add Silvin as maintainer on Spec repo
+    - we voted last November to add him, but the configuration to the repo was not added
+
+- Stable draft vs. 1.0 for security and registry
+    - Chris: if we wait for registries to support new versions, it might take a long time. Notary work is unknown at this point.
+    - Trishank: not sure if there will be incompatible changes for Notary, so we don't know at this point. We should release a 1.0 with the stable draft, then update if / when new versions are supported.
+    - Matt: do we anticipate changes to the core spec? 
+    - Radu: we could end up with different versions
+    - Chris: I worry that if we don't cut versions, people trying to adopt will be deterred because they will think we don't have stable versions.
+
+- move other repos to `cnabio`
+    - Matt: switch to DCO for all repos (JDF)
+    - Chris: `cnab-to-oci` has to go through legal first, but it needs to vetted first
+    - Matt: we should also move `signy` to have an _official_ implementation for security as well
+
+- there might be a change to the core spec that would require an errata
+
+- claims spec
+    - Matt: I would like to push the claims spec to completion spec, as multiple tools use it already
+    - Matt: there is an outstanding requirement to change `name` to `installation` that might break existing tools.
+    - Matt: strive to have the claims spec in a stable draft by end of February
+    - Ralph: does the spec have any statement that would prevent storing state in claims, or does it need changes?
+    - Matt: we have a statement that would allow an opaque data storage for systems like Terraform
+    - Carolyn: have we been thinking about tracking the actions that have been performed on a bundle besides the last one, like an audit operation?
+    - Matt: I don't think there is anything specific on it, I will look at it carefully - but because a claim has a name and revision ID, it should be trivial to retrieve all claims related to a bundle
+    - Carolyn: distinction between something we implement vs. something required of all tools
+    - Jacob: I have been working on an API that queries all claims for a specific bundle
+    - Chris: Jacob, could you share that API? It is something that Docker App also needs to solve
+    - Jacob: I would like to switch the API to protobuf and at least share the proto - I want to open source it, it might take some time
+    - Carolyn: is it for claim storage?
+    - Jacob: the API handles installations and internal workflows, for storing, querying, distributing instalations
+    - Carolyn: I've been working on a plugin for claims backends for tools (Porter, Duffle) to use and store claims in backends - it would be nice to collaborate
+    - Jacob: I could do a demo (add as agenda)
+    - Matt: if there are changes required in the claim spec to enable distributed claim stores, please 
+    - Jacob: add an identity to claims for audit purposes - we explicitly stated that we don't handle this in claims right now, but this might be required, as we're currently storing that outside the claim
+    - Matt: could you open an issue for this? This will end up being required most probably.
+
+- update on MSFT usage of CNAB and Azure examples
+    - Ralph was supposed to present this (existing Azure examples have been migrated to CNAB, and the Azure Docs team started implemented bundles)
+   
+- Should we parse digest from the `image` field? https://github.com/cnabio/cnab-go/pull/166 (Jacob)
+
+    - Jacob: context in PR linked above, more opinions are very helpful here. The PR introduces a `Digest()` function for images - should the method return the content digest, return it only if it was added in the bundle, or return it from the image
+    - Jacob: there is also a question of what the content digest is in the context of Docker images - please check the discussion and comment.
+    - Matt: we should re-document and add this again on the agenda for next time.
