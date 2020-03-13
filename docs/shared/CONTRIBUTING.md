@@ -4,7 +4,7 @@ wanted][help-wanted] issues for our other contributors.
 - `good first issue` has extra information to help you make your first contribution.
 - `help wanted` are issues suitable for someone who isn't a core maintainer.
 
-Maintainers will do their best regularly make new issues for you to solve and
+Maintainers will do their best to regularly make new issues for you to solve and
 then help out as you work on them. 💖
 
 # Philosophy
@@ -15,12 +15,11 @@ PRs are most welcome!
   the problem or motivation for the change you are proposing. When the solution
   isn't straightforward, for example "Implement missing command X", then also
   outline your proposed solution. Your PR will go smoother if the solution is
-  agreed upon before you've spent a lot of time implementing it.
+  agreed upon before you spend a lot of time implementing it.
   - It's OK to submit a PR directly for problems such as misspellings or other
     things where the motivation/problem is unambiguous.
 - If you aren't sure about your solution yet, put WIP in the title or open as a
-  draft PR so that people know to be nice and wait for you to finish before
-  commenting.
+  draft PR so that people wait for you to finish before reviewing.
 - Try to keep your PRs to a single task. Please don't tackle multiple things in
   a single PR if possible. Otherwise, grouping related changes into commits will
   help us out a bunch when reviewing!
